@@ -1,0 +1,25 @@
+// Variables
+$primary-color: #272727;
+$secondary-color: #ff652f;
+
+// Reset
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// Set a transition for the on-hover color of the social media icons and any other transition we can target
+@mixin transition-ease{
+    transition: all 0.5s ease-in-out;
+}
+
+// Create a function to give us the apropriate color for our text
+@function set-text-color($color) {
+    // If the lightness is greater than 40% return black, else return white;
+    @if (lightness($color) > 40%){
+        @return #000;
+    } @else {
+        @return #fff;
+    }
+}

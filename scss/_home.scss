@@ -1,0 +1,30 @@
+.home{
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    background: 
+        linear-gradient(
+            to right,
+            // First gradient color with opacity
+            rgba($primary-color, 0.8),
+            // Second gradient color with opacity
+            rgba($primary-color, 0.2)
+        ),
+        url('https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true') center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+        &__name{
+            font-size: 5rem;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid set-text-color($primary-color);
+
+            &--last{
+                color: $secondary-color;
+                font-weight: 700;
+            }
+        }
+}
