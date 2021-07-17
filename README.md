@@ -1,7 +1,9 @@
 # sass-portfolio
 
-## Portfolio site utilizing Sass to style throughout
+## Description
+Portfolio template site utilizing Sass to style throughout
 
+## Deployed Application
 View the deployed application at [https://vanessabau.github.io/sass-portfolio/index](https://vanessabau.github.io/sass-portfolio/index)
 
 ## Technologies
