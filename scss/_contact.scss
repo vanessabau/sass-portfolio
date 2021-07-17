@@ -1,0 +1,37 @@
+.contact{
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: 
+        linear-gradient(
+            to right,
+            // First gradient color with opacity
+            rgba($primary-color, 0.8),
+            // Second gradient color with opacity
+            rgba($primary-color, 0.2)
+        ),
+        url('https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true') center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .social-icons {
+        position: initial;
+        margin-top: 2rem;
+    }
+       
+}
