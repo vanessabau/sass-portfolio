@@ -13,8 +13,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.2))), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.2)), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(3, 7, 27, 0.7)), to(rgba(3, 7, 27, 0.1))), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
+  background: linear-gradient(to right, rgba(3, 7, 27, 0.7), rgba(3, 7, 27, 0.1)), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -27,7 +27,7 @@
 }
 
 .home__name--last {
-  color: #ff652f;
+  color: #ff909f;
   font-weight: 700;
 }
 
@@ -80,7 +80,7 @@
 .menu-btn__burger.open {
   -webkit-transform: rotate(720deg);
           transform: rotate(720deg);
-  background: rgba(39, 39, 39, 0.01);
+  background: rgba(3, 7, 27, 0.01);
 }
 
 .menu-btn__burger.open::before {
@@ -123,7 +123,7 @@
           justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background: #272727;
+  background: #03071b;
   list-style-type: none;
   padding-right: 1rem;
   -webkit-transform: translateY(-100%);
@@ -150,7 +150,7 @@
 }
 
 .nav .menu-nav__item.active > a {
-  color: #ff652f;
+  color: #ff909f;
 }
 
 .nav .menu-nav__link {
@@ -164,7 +164,7 @@
 }
 
 .nav .menu-nav__link:hover {
-  color: #ff652f;
+  color: #ff909f;
 }
 
 .menu-nav__item:nth-child(1) {
@@ -194,8 +194,8 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.2))), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.2)), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(3, 7, 27, 0.8)), to(rgba(3, 7, 27, 0.2))), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
+  background: linear-gradient(to right, rgba(3, 7, 27, 0.8), rgba(3, 7, 27, 0.2)), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -237,9 +237,9 @@
 }
 
 .about .jobs__job {
-  background: #414141;
+  background: #081349;
   padding: 0.5rem;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #ff909f;
 }
 
 .about .jobs__job h2, .about .jobs__job h3 {
@@ -272,8 +272,8 @@
 .projects__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.2))), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.2)), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(3, 7, 27, 0.8)), to(rgba(3, 7, 27, 0.2))), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
+  background: linear-gradient(to right, rgba(3, 7, 27, 0.8), rgba(3, 7, 27, 0.2)), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -308,7 +308,7 @@
 
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #ff909f;
   overflow: hidden;
   cursor: pointer;
 }
@@ -324,7 +324,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #ff652f;
+  background: #ff909f;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -395,8 +395,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.2))), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.2)), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(3, 7, 27, 0.8)), to(rgba(3, 7, 27, 0.2))), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
+  background: linear-gradient(to right, rgba(3, 7, 27, 0.8), rgba(3, 7, 27, 0.2)), url("https://github.com/vanessabau/daily-practice/blob/master/mexico-photo.jpg?raw=true") center top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -432,7 +432,7 @@
     -webkit-transform: translateY(0);
             transform: translateY(0);
     height: 100%;
-    background: rgba(39, 39, 39, 0);
+    background: rgba(3, 7, 27, 0);
     text-align: right;
   }
   .nav .menu-nav__item {
@@ -477,7 +477,7 @@
 }
 
 body {
-  background: #272727;
+  background: #03071b;
   color: #fff;
   height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -494,7 +494,7 @@ a {
 }
 
 .text-secondary {
-  color: #ff652f;
+  color: #ff909f;
 }
 
 header {
@@ -522,7 +522,7 @@ main .social-icons a {
 }
 
 main .social-icons a:hover {
-  color: #ff652f;
+  color: #ff909f;
 }
 
 footer {
